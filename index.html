@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="sytles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cambo&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <title>Conversor de Moedas</title>
+</head>
+<body background="assets/bg1.png" alt="moedas-background">
+
+<h1>Conversor Monetário</h1>
+
+<div class="main">
+    <label>
+        Converter de
+        <select class="first-select">
+            <option value="dolar">Dólar Americano</option>
+            <option value="euro">Euro</option>
+            <option value="libra">Libra Esterlina</option>
+            <option value="bitcoin">Bitcoin</option>
+            <option value="iene">Iene Japonês</option>
+            <option value="dolar-canadense">Dólar Canadense</option>
+            <option value="peso-argentino">Peso Argentino</option>
+            <option value="franco-suiço">Franco Suiço</option>
+            <option value="doge">Dogecoin</option>
+
+        </select>
+    </label>
+
+    <label>
+        Valor
+        <input class="input-currency" placeholder="0,00">
+    </label>
+
+    <button class="convert">Converter</button>
+
+<div class="container">
+
+    <div class="square">
+    <img src="assets/dólar-logo.png" alt="logo-moeda-a-converter" class="moeda-converter" id="currency-img">
+    <p class="titulo" id="currency-prime">Dólar Americano</p>
+    <p class="valor" id="valor-a-converter">$ 0,00</p>
+</div>
+
+<img src="assets/seta.png" alt="vector-seta" class="seta">
+
+<div class="square2">
+    <img src="assets/real-logo.png" alt="logo-moeda-convertida" class="moeda-convertida">
+    <p class="titulo" id="currency-real">Real</p>
+    <p class="valor" id="valor-convertido">R$ 0,00</p>
+</div>
+
+</div>
+
+<p class="update"></p>
+    
+</body>
+<script src="script.js"></script>
+</html>
