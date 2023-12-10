@@ -3,6 +3,7 @@
 <br>
 Nele é possível converter algumas moedas para o real, além de ser exibido a data e horário da cotação atualizada. Constam as seguintes moedas: Dólar Americano, Euro, Libra Esterlina, Bitcoin, Iene, Dólar Canadense, Peso Argentino, Franco Suiço e Dogecoin.
   <br>
+  <br>
 É uma das atividades do curso <b>DevClub</b>, onde modifiquei em alguns detalhes. Foram utilizados as ferramentas HTML, CSS e JavaScript.
 <br>
 <br>
