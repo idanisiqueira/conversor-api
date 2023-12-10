@@ -8,7 +8,9 @@ const convertValues = async () => {
     const currencyValueToConvert = document.querySelector("#valor-a-converter"); // moedas acima
     const currencyValueConverted = document.querySelector("#valor-convertido"); // moeda abaixo
 
-    const data = await fetch("http://economia.awesomeapi.com.br/json/last/USD-BRL,EUR-BRL,GBP-BRL,JPY-BRL,BTC-BRL,ARS-BRL,CAD-BRL,CHF-BRL,DOGE-BRL").then(response => response.json())
+    const data = await fetch("https://economia.awesomeapi.com.br/json/last/USD-BRL,EUR-BRL,GBP-BRL,JPY-BRL,BTC-BRL,ARS-BRL,CAD-BRL,CHF-BRL,DOGE-BRL").then(response => response.json())
+
+    console.log(data)
 
     const dolar = data.USDBRL.high
 
