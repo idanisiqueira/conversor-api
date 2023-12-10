@@ -3,10 +3,10 @@ const firstSelect = document.querySelector(".first-select")
 
 const convertValues = async () => {
 
-    const inputCurrencyValue = document.querySelector(".input-currency").value
+    const inputCurrencyValue = document.querySelector(".input-currency").value;
 
-    const currencyValueToConvert = document.querySelector("#valor-a-converter") // moedas acima
-    const currencyValueConverted = document.querySelector("#valor-convertido") // moeda abaixo
+    const currencyValueToConvert = document.querySelector("#valor-a-converter"); // moedas acima
+    const currencyValueConverted = document.querySelector("#valor-convertido"); // moeda abaixo
 
     const data = await fetch("http://economia.awesomeapi.com.br/json/last/USD-BRL,EUR-BRL,GBP-BRL,JPY-BRL,BTC-BRL,ARS-BRL,CAD-BRL,CHF-BRL,DOGE-BRL").then(response => response.json())
 
@@ -206,7 +206,7 @@ function changeFirstSelect (){ // função para alterar a imagem das moedas do p
     }
 }
 
-// função de atualização da cotação
+// função de atualização de data e hora cotação
 
 const hourUpdate = async () => {
     const data = await fetch("https://economia.awesomeapi.com.br/last/USD-BRL").then(response => response.json())
