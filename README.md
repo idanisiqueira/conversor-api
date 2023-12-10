@@ -1,5 +1,6 @@
 <p>O projeto em questão é um conversor de moedas com consumo de API para atualização monetária.
 <br>
+  <br>
 Nele é possível converter algumas moedas para o real. Constam as seguintes moedas: Dólar Americano, Euro, Libra Esterlina, Bitcoin, Iene, Dólar Canadense, Peso Argentino, Franco Suiço e Dogecoin.
   <br>
 É um das atividades do curso <b>DevClub</b> modificadas em alguns detalhes por mim. Foram utilizados as ferramentas HTML, CSS e JavaScript.
